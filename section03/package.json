@@ -1,0 +1,13 @@
+{
+  "name": "section03",
+  "version": "1.0.0",
+  "description": "노드.js를 이용한 자바스크립트",
+  "license": "ISC",
+  "author": "kkhhjj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  }
+}
