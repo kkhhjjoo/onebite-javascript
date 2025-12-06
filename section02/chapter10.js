@@ -3,6 +3,9 @@ let date1 = new Date(); //생성자
 console.log(date1);
 
 let date2 = new Date("1992-12-03");
+// let date2 = new Date("1992.12.03");
+// let date2 = new Date("1992/12/03/10:10:10");
+// let date2 = new Date("1992,12,03,10,10,10");
 console.log(date2);
 
 //2. 타임 스탬프

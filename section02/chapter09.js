@@ -33,10 +33,10 @@ let arr3 = [10, 3, 5];
 arr3.sort((a, b) => {
   if (a > b) {
     //b가 a 앞에 와라
-    return 1; // b, a 배치
+    return 1; //-> b, a 배치
   } else if (a < b) {
     //a가 b 앞에 와
-    return - 1; //a, b배치
+    return -1; //-> a, b배치
   } else { 
     //두 값의 자리를 바꾸지 마라
     return 0; //a, b 자리를 그대로 유지
